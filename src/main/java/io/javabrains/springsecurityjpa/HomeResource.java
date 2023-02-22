@@ -20,10 +20,5 @@ public class HomeResource {
     public String admin() {
         return ("<h1>Welcome Admin</h1>");
     }
-    
-    @GetMapping("/others")
-    public String others() {
-        return ("<h1>Welcome Others</h1>");
-    }
 }
 
